@@ -1,4 +1,4 @@
-package xyz.starly.astralshop.api;
+package kr.starly.astralshop.api;
 
 import org.bukkit.plugin.Plugin;
 

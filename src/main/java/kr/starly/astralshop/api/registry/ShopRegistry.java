@@ -1,7 +1,7 @@
-package xyz.starly.astralshop.api.registry;
+package kr.starly.astralshop.api.registry;
 
+import kr.starly.astralshop.api.shop.Shop;
 import org.jetbrains.annotations.NotNull;
-import xyz.starly.astralshop.api.shop.Shop;
 
 import java.util.List;
 

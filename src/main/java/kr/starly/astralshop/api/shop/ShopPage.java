@@ -1,4 +1,4 @@
-package xyz.starly.astralshop.api.shop;
+package kr.starly.astralshop.api.shop;
 
 import java.util.Map;
 

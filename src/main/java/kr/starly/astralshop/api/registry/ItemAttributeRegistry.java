@@ -2,7 +2,6 @@ package kr.starly.astralshop.api.registry;
 
 import kr.starly.astralshop.api.addon.ItemAttributeProvider;
 
-import java.util.List;
 import java.util.Map;
 
 public interface ItemAttributeRegistry {

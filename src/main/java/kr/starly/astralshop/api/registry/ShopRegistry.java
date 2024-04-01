@@ -8,18 +8,15 @@ import java.util.List;
 public interface ShopRegistry {
 
     void loadShops();
-
     Shop loadShop(String name);
 
     void saveShops();
-
     void saveShop(Shop shop);
 
     boolean createShop(@NotNull String name);
 
     boolean deleteShop(@NotNull String name);
 
-    Shop getShop(String name);
-
     @NotNull List<Shop> getShops();
+    Shop getShop(String name);
 }

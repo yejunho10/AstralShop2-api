@@ -9,6 +9,7 @@ import org.bukkit.event.HandlerList;
 public class ShopTransactionEvent extends Event implements Cancellable {
 
     private static final HandlerList HANDLERS = new HandlerList();
+
     @Getter private final ShopTransaction transaction;
     private boolean cancel = false;
 

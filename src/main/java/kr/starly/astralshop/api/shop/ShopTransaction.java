@@ -1,15 +1,24 @@
 package kr.starly.astralshop.api.shop;
 
-import java.util.Date;
-
 public interface ShopTransaction {
 
-    ShopTransactionType getType();
-    Date getTransactionDate();
+    org.bukkit.entity.Player getPlayer();
 
-    String getShop();
+    ShopTransactionType getType();
+
+    java.util.Date getDate();
+
+    Shop getShop();
+
     int getPage();
+
     int getSlot();
 
+    ShopItem getItem();
+
     int getAmount();
+
+    double getPrice();
+
+    void setPrice(double price);
 }

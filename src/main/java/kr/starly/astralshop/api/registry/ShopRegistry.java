@@ -9,7 +9,7 @@ public interface ShopRegistry {
 
     void loadShops();
 
-    void loadShop(Shop shop);
+    Shop loadShop(String name);
 
     void saveShops();
 

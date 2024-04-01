@@ -9,22 +9,20 @@ public interface ShopItem {
     ItemStack getItemStack();
 
     double getBuyPrice();
-
     void setBuyPrice(double price);
 
     double getSellPrice();
-
     void setSellPrice(double price);
 
     int getStock();
-
     void setStock(int stock);
 
     int getRemainStock();
-
     void setRemainStock(int stock);
 
-    List<String> getCommands();
+    boolean isHideLore();
+    void setHideLore(boolean hideLore);
 
+    List<String> getCommands();
     void setCommands(List<String> commands);
 }

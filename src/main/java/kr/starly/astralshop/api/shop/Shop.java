@@ -1,5 +1,7 @@
 package kr.starly.astralshop.api.shop;
 
+import kr.starly.astralshop.api.addon.TransactionHandler;
+
 import java.util.List;
 
 public interface Shop {
@@ -18,6 +20,9 @@ public interface Shop {
 
     String getNpc();
     void setNpc(String npc);
+
+    TransactionHandler getTransactionHandler();
+    void setTransactionHandler(TransactionHandler transactionHandler);
 
     List<ShopPage> getShopPages();
 }

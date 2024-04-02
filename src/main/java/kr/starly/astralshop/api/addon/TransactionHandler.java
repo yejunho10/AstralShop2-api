@@ -8,9 +8,8 @@ import org.bukkit.inventory.ItemStack;
 
 public interface TransactionHandler {
 
+    String getName();
     ShopTransaction handleClick(InventoryClickEvent event, Shop shop, int page, int slot, ShopItem item);
-
     void handleTransaction(ShopTransaction transaction);
-
     ItemStack toItemStack(ShopItem item);
 }

@@ -7,8 +7,6 @@ import org.bukkit.inventory.ItemStack;
 public interface ItemAttributeProvider {
 
     String getName();
-
     ItemStack getIcon(Player player);
-
     void onIconClick(InventoryClickEvent event);
 }

@@ -17,8 +17,4 @@ public interface ShopTransaction {
     ShopItem getItem();
 
     int getAmount();
-
-    double getPrice();
-
-    void setPrice(double price);
 }

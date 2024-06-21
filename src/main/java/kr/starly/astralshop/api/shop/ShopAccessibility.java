@@ -6,6 +6,7 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 public enum ShopAccessibility {
+
     PUBLIC("공개"),
     PROTECTED("일부공개"),
     PRIVATE("비공개");

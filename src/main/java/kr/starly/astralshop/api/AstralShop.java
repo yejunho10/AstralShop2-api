@@ -1,7 +1,7 @@
 package kr.starly.astralshop.api;
 
 import kr.starly.astralshop.api.registry.ItemAttributeRegistry;
-import kr.starly.astralshop.api.registry.ShopRegistry;
+import kr.starly.astralshop.api.registry.ShopRepository;
 import kr.starly.astralshop.api.registry.TransactionHandlerRegistry;
 import lombok.Getter;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -18,7 +18,7 @@ public abstract class AstralShop extends JavaPlugin {
 
     @Getter private static AstralShop instance;
 
-    public abstract ShopRegistry getShopRegistry();
+    public abstract ShopRepository getShopRepository();
     public abstract ItemAttributeRegistry getItemAttributeRegistry();
     public abstract TransactionHandlerRegistry getTransactionHandlerRegistry();
 }

@@ -5,7 +5,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
-public interface ShopRegistry {
+public interface ShopRepository {
 
     void loadShops();
     Shop loadShop(String name);

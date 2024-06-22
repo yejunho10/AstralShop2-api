@@ -1,5 +1,9 @@
 package kr.starly.astralshop.api.shop;
 
+import org.jetbrains.annotations.NotNull;
+
+import java.util.Map;
+
 public interface ShopTransaction {
 
     org.bukkit.entity.Player getPlayer();
@@ -17,4 +21,6 @@ public interface ShopTransaction {
     ShopItem getItem();
 
     int getAmount();
+
+    @NotNull Map<String, Object> serialize();
 }

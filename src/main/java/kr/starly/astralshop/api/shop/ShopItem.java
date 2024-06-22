@@ -1,8 +1,10 @@
 package kr.starly.astralshop.api.shop;
 
+import com.google.common.collect.ImmutableMap;
 import org.bukkit.inventory.ItemStack;
 
 import java.util.List;
+import java.util.Map;
 
 public interface ShopItem {
 
@@ -25,4 +27,7 @@ public interface ShopItem {
 
     List<String> getCommands();
     void setCommands(List<String> commands);
+
+    ImmutableMap<String, Object> getAttributes();
+    void setAttributes(Map<String, Object> attributes);
 }

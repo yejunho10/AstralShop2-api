@@ -20,8 +20,8 @@ public interface ShopItem {
     int getRemainStock();
     void setRemainStock(int stock);
 
-    boolean isHideLore();
-    void setHideLore(boolean hideLore);
+    boolean isMarker();
+    void setMarker(boolean marker);
 
     List<String> getCommands();
     void setCommands(List<String> commands);

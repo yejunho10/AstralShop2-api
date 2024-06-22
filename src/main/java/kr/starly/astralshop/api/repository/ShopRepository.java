@@ -1,4 +1,4 @@
-package kr.starly.astralshop.api.registry;
+package kr.starly.astralshop.api.repository;
 
 import kr.starly.astralshop.api.shop.Shop;
 import org.jetbrains.annotations.NotNull;

@@ -18,8 +18,8 @@ public interface Shop {
     String getGuiTitle();
     void setGuiTitle(String title);
 
-    String getNpc();
-    void setNpc(String npc);
+    int getRows();
+    void setRows(int rows);
 
     TransactionHandler getTransactionHandler();
     void setTransactionHandler(TransactionHandler transactionHandler);
